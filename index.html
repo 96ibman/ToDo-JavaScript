@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task Manager</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-wrapper">
+    <div class="task-app">
+      <h2>Task Manager <img src="images/check-list.png" alt="checklist"></h2>
+      <div class="task-input-row">
+        <input type="text" id="task-input" placeholder="Add your task">
+        <button id="task-add-btn">Add</button>
+      </div>
+      <ul id="task-list"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+  <div id="toast" class="toast" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
